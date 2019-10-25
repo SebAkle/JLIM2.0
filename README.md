@@ -180,7 +180,7 @@ Default 0.05. This is the minor allele frequency (MAF) cutoff . The script will 
 - interval_int
 Default 200,000. This is the size of the interval (in BP), which will be analyzed by JLIM
 
- -Output:
+ Output:
 
 The script will produce a ‘data’ and a ‘snps’ file for each peak in the chromosome. These will be named with the output_string and the chromosome coordinates as:
 output_string.start_BP.end_BP.snps.gz,
@@ -245,7 +245,7 @@ The chromosome number
 The number of cohorts that will be meta-analyzed together
 
 ### 6) Meta analyze
--For each locus-secondary phenotype, when all of the cohort specific regressions have been finished, run “METAmergecohorts.py” to combine the cohort specific statistics into meta-analyzed files. These will include a summary statistic association file (meta.assoc_file) and a permutation file (meta.dump.all)
+For each locus-secondary phenotype, when all of the cohort specific regressions have been finished, run “METAmergecohorts.py” to combine the cohort specific statistics into meta-analyzed files. These will include a summary statistic association file (meta.assoc_file) and a permutation file (meta.dump.all)
 
 ```
 python METAmergecohorts.py cohort_number_int assoc_file secondary_phenotype_name/locus.chr.startBP.endBP
