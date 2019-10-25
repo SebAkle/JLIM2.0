@@ -39,19 +39,19 @@ And then, add your local R library path to **R_LIBS** environment variable in .b
 ```
 export R_LIBS=~/R:$R_LIBS
 ```
-
 The python based pre-processing step for JLIM 2 depends on numpy and scipy. Please check that your versions of the following packages are at least:
 
-python 2.7.9
-numpy 1.14.3
-scipy 1.0.0
+- python 2.7.9
+- numpy 1.14.3
+- scipy 1.0.0
 
 
 ## How to run JLIM on provided example  
 
 ### Example data
 
-In JLIM_2.0/example, we provide the following simulated dataset: 
+We provide example data hosted in the Sunyaev lab website:[Sunyaev lab website](http://genetics.bwh.harvard.edu/wiki/sunyaevlab/jlim2)
+Please untar the example data in the same folder that the code was untared.
 Data from three simulated cohorts (A,B,C) in chromosome 1- Bimbam and map files for each cohort. A peaks file containing the mid point of each region in chromosome 1 that will be analyzed. A reference LD file corresponding to the two loci analyzed. An IndexSNP file (Height/Height_indexSNP.tsv) with both loci under analysis and two primary trait statistics files (Height) containing only summary statistics. We also include a phenotype file, a samples file and a covariate file for each cohort.
 
 To run the example after JLIM is installed, run all commands in the file:
