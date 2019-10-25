@@ -21,16 +21,12 @@ After **getopt** has been installed, **jlimR** (included in the distribution fil
 ```
 tar -zxvf JLIM_2.0.tar.gz 
 
-cd JLIM_2.0
-
 R CMD INSTALL JLIM_2.0.tar.gz
 ```
 
 In case that it is preferred to install R extensions in your home directory (e.g. ~/R) instead of the default system path, please do the following instead: 
 ```
 Rscript -e 'install.packages("getopt", "~/R", repos="http://cran.r-project.org")' 
-
-cd JLIM_2.0
 
 R CMD INSTALL -l ~/R JLIM_2.0.tar.gz
 
