@@ -43,7 +43,6 @@ The python based pre-processing step for JLIM 2 depends on numpy and scipy. Plea
 
 
 ## How to run JLIM on provided example  
-
 ### Example data
 
 We provide example data hosted in the Sunyaev lab website: [Example Data](http://genetics.bwh.harvard.edu/wiki/sunyaevlab/_media/jlim_2_example.tar.gz)
