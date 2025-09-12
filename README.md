@@ -5,7 +5,7 @@ JLIM is a cross-trait test of shared causal effect, which is described ([Chun et
 
 JLIM 2.0 
 
-Has the added functionality of obtaining association statistics for the secondary trait in a cohort specific manner and then combining them before running JLIM. JLIM 2.0 is described in (https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010557) 
+Has the added functionality of obtaining association statistics for the secondary trait in a cohort specific manner and then combining them before running JLIM. JLIM 2.0 is described in [JLIM Pleiotropy paper](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1010557) 
 
 ## How to install
 
